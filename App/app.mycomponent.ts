@@ -8,6 +8,9 @@ import {Form} from '@angular/forms'
 @Component({
     selector:'myapp',
     template:`
+    <my-pipes></my-pipes>
+    <my-condition></my-condition>
+
     <h1>My App</h1>
     <h3> Binding</h3>
     <h4>One Way : Source to HTML (Property Binding)</h4>
@@ -32,6 +35,10 @@ import {Form} from '@angular/forms'
     <h1> Emulated Component </h1>
     <my-styleone></my-styleone>
     <my-styletwo></my-styletwo>
+
+    <h1> Condition Component </h1>
+
+
     `
 })
 

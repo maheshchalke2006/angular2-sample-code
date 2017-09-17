@@ -12,12 +12,14 @@ var forms_1 = require("@angular/forms");
 var app_mycomponent_1 = require("./app.mycomponent");
 var app_countercompnent_1 = require("./app.countercompnent");
 var app_stylecomponent_1 = require("./app.stylecomponent");
+var app_conditioncomponent_1 = require("./app.conditioncomponent");
+var app_pipescomponent_1 = require("./app.pipescomponent");
 var MyModule = /** @class */ (function () {
     function MyModule() {
     }
     MyModule = __decorate([
         core_1.NgModule({
-            declarations: [app_mycomponent_1.AppMyComponent, app_countercompnent_1.AppCounterComponent, app_stylecomponent_1.StyleOneComponent, app_stylecomponent_1.StyleTwoComponent],
+            declarations: [app_mycomponent_1.AppMyComponent, app_countercompnent_1.AppCounterComponent, app_stylecomponent_1.StyleOneComponent, app_stylecomponent_1.StyleTwoComponent, app_conditioncomponent_1.AppConditionComponent, app_pipescomponent_1.AppPipesComponent],
             imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
             bootstrap: [app_mycomponent_1.AppMyComponent]
         })

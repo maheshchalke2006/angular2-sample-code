@@ -1,7 +1,7 @@
 //Decoretor 
-import {Component, ViewEncapsulation} from '@angular/core'
+    import {Component, ViewEncapsulation} from '@angular/core'
 
-@Component({
+@Component({    
     selector:'my-counter',
     encapsulation: ViewEncapsulation.Emulated,
     //styles:['css1 {color:red}'],
